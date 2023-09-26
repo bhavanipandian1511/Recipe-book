@@ -1,0 +1,69 @@
+
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the Recipe Book application */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c38686;
+    color: #fff;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #872525;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.recipe-form {
+    text-align: left;
+}
+
+.recipe-form label, .recipe-form textarea, .recipe-form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.recipe-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.recipe-list-controls {
+    margin-bottom: 20px;
+}
+
+.recipe-list-controls label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.recipe-list-controls select {
+    padding: 5px;
+    border-radius: 5px;
+}
